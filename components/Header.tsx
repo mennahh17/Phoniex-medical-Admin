@@ -68,10 +68,17 @@ export default function Header() {
               > Order History </Link>
 
               <div >
-                <Link href="/Cart"
+                <Link href="/Addproduct"
                 className="block text-blue-900 px-4 py-2 hover:bg-blue-900/50 rounded-2xl font-bold"
                 onClick={()=>setIsOpen(false)}
-                >My Cart </Link>
+                >Add product </Link>
+                </div>
+
+              <div >
+                <Link href="/Dashboard"
+                className="block text-blue-900 px-4 py-2 hover:bg-blue-900/50 rounded-2xl font-bold"
+                onClick={()=>setIsOpen(false)}
+                >Dashboard </Link>
                 </div>
 
               <button
